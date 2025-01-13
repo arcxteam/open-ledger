@@ -1,6 +1,7 @@
 # OPEN LEDGER BOT 
 
 ![banner](image.png)
+![Desktop-screenshot-01-13-2025_11_26_PM](https://github.com/user-attachments/assets/99e86b82-ec52-41c7-a1ab-a6ba7a6967cb)
 
 
 - Dashboard Web [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm)
