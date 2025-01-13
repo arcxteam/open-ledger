@@ -36,6 +36,8 @@ function readFile(pathFile) {
 const newAgent = (proxy = null) => {
     if (proxy && proxy.startsWith('http://')) {
         return new HttpsProxyAgent(proxy);
+    } else if (proxy && proxy.startsWith('https://')) {
+        return new HttpsProxyAgent(proxy);
     } else if (proxy && (proxy.startsWith('socks4://') || proxy.startsWith('socks5://'))) {
         return new SocksProxyAgent(proxy);
     }
