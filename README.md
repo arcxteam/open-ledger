@@ -1,35 +1,71 @@
-# OPEN LEDGER BOT 
+# A Complete Guide - Run OpenLedger Node as Provided Model Roles
+
+What is **OpenLedger**? OpenLedger's data Blockchain AI network providing a decentralized system to create and train specialized language models (SLMs). It uses "Datanets" to gather and organize data, enabling the development of AI (Agents) tools like DeSci, chatbots, copilots, and other model applications.
+
+## Here We Go...GAS 
+
+**`Is there incentivized?` ![Confirm](https://img.shields.io/badge/confirm-yes-brightgreen)**
+
+> [!IMPORTANT]
+> **Disclaimer:**: This rewards structure is subject to change at any time. The entire point system and associated benefits may be revamped depending on testnet developments. Openledger reserves all rights to modify or update these terms as necessary to ensure optimal network growth and functionality. [Docs](https://openledger.gitbook.io/openledger/testnet/early-node-runner-benefits)
+
+---
 
 ![openledger-Blockchain-for-AI-01-13-2025_11_36_PM](https://github.com/user-attachments/assets/a8edd348-ab71-438b-85b5-983173dd17e0)
 ![Desktop-screenshot-01-13-2025_11_26_PM](https://github.com/user-attachments/assets/99e86b82-ec52-41c7-a1ab-a6ba7a6967cb)
 
+## 1. Preparation/Prerequisites
+**1. Hardware Requirements (optional)**
 
-- Dashboard Web [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm)
-- Twitter [@OpenledgerHQ](https://x.com/OpenledgerHQ)
+> [!NOTE]
+> This optional for run with VPS or anything resources
 
+| Requirement                      | Details                                   |
+|----------------------------------|-------------------------------------------|
+| RAM/Memory                       | 4 GB - Up                                    |
+| CPU/vCPU                         | 2 Cores - Up                                |
+| Storage Space                    | 50 GB - Up                                   |
+| Supported OS Linux               | Ubuntu 18, 20, 22 and 24 or Debian          |
 
-## Features
+**2. Software Requirements (required)**
+
+| Requirement                      | Details                        |
+|----------------------------------|--------------------------------|
+| NODE.JS                          | versions >20 - up              |
+| NPM (Node Package Manager)       | versions >10 - Up              |
+| Pm2 (Process Manager)            | versions >5 - Up               |
+| Proxy services                   | stable residential proxy       |
+
+**3. Supported Tools**
+
+| Requirement                      | Details                    |
+|----------------------------------|----------------------------|
+| Accounts Google                  | for emails                 |
+| Twitter,Telegram & Discord       | for binding                |
+| Proxy services                   | free or buying (recommend) |
+
+### Features bot
 
 - **Auto Send Heartbeat**
 - **Auto Connect/Reconnect Nodes**
 - **Auto Claim Daily Rewards**
 - **Support Multiple Accounts**
-- **Support Proxy Usage (http/socks)**
+- **Support Proxy Usage (HTTP-HTTPS-Socks4-5)**
 
-## Requirements
+> **thx for wak Hendra @ZLKCyber**
 
-- **Node.js**: Ensure you have Node.js installed.
-- **npm**: Ensure you have npm installed.
-- **Proxies**: `IM NOT PROMO, COZ I USED IT NOW` If you need a proxy, 2captcha is a good one. It was promoted with 50% off on 1GB for $3, it accepts crypto without fees and uses low-bandwitch + has rotating IP locations under your generated IP addresses. [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
+## 2. Setup Installation - Run OpenLedger Node
+**1. Proxies Accounts (residentials)**
+
+- I appreciate you, `IM NOT PROMO, COZ I USED IT NOW` If you need a proxy, 2captcha is a good one. It was promoted with 50% off on 1GB for $3, many accepts crypto without fees and uses low-bandwitch + setup rotating IP locations under your generated IP addresses. [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
 
 ![image](https://github.com/user-attachments/assets/ac433d24-f082-4ade-9269-a1dea2a71695)
 
+**2. OpenLedger Dashboard Accounts**
 
-- **Wallets from open-ledger account**: how to get ???
-- **Go To dashboard** [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm) and copy your wallet, look at image below:
-
+- Signup/Login into Dashboard [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm)
+- Get address wallets from **open-ledger account**: how to get ? Go To dashboard/setting and copy your wallet, look at image below:
   ![image](https://github.com/user-attachments/assets/0403f6fb-57b4-4cce-b14e-0985370f4e32)
-
 
 ## Setup
 
@@ -42,23 +78,54 @@
    ```bash
    npm install
    ```
-3. Setup: paste you wallet to `wallets.txt` file 1 address per line.
+3. Copy paste you wallet from **open-ledger account** to `wallets.txt` file 1 address per line.
    ```bash
    nano wallets.txt
    ```
 
-4. Optionally use proxy: paste proxy in the proxy.txt file. 1 proxy per line.
-- "It is recommended to use a proxy if you are running multiple accounts."
-    ```bash
-    nano proxy.txt
-    ```
-    format : `protocol://user:password@ip:port`   | or | `protocol://ip:port`
+4. Use proxy: copy paste in the proxy.txt file. 1 proxy per line. I used `socks5`
+- It is recommended to use a proxy if you are running multiple accounts
+- Format : `https://user:password@ip:port` | `socks5://user:password@ip:port` | `http://user:password@ip:port`
 
-
-5. Run The Script:
+  ```bash
+  nano proxy.txt
+  ```
+5. Run The JavaScript with **Pm2 (Process Manager 2)**
    ```bash
-   npm run start
+   pm2 start npm --name open-ledger -- start
    ```
+
+6. Check logs **Pm2 (Process Manager 2)**
+   ```bash
+   pm2 logs open-ledger
+   ```
+
+## 3. Usefull any Command
+
+- For install Pm2 
+
+```
+npm install -g pm2
+```
+
+- For any logs
+
+```
+pm2 monit
+```
+
+```
+pm2 save
+pm2 startup
+```
+
+```
+pm2 stop open-ledger
+```
+
+```
+pm2 -v
+```
 
 ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
