@@ -3,7 +3,7 @@
 ![banner](image.png)
 
 
-- Website [https://openledger.xyz](https://testnet.openledger.xyz/?referral_code=ccex4vipg4)
+- Dashboard Web [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm)
 - Twitter [@OpenledgerHQ](https://x.com/OpenledgerHQ)
 
 
@@ -19,9 +19,13 @@
 
 - **Node.js**: Ensure you have Node.js installed.
 - **npm**: Ensure you have npm installed.
+- **Proxies**: If you need, 2captcha is good choose-1. it was promotion with 50% starting by 1GB/$3 accept crypto without fees. so its low use traffic & rotating under your generate IP locations [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
+
+![image](https://github.com/user-attachments/assets/ac433d24-f082-4ade-9269-a1dea2a71695)
+
 
 - **Wallets from open-ledger account**: how to get ???
-- **Go To dashboard** [https://openledger.xyz](https://testnet.openledger.xyz/?referral_code=ccex4vipg4) and copy your wallet, look at image below:
+- **Go To dashboard** [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm) and copy your wallet, look at image below:
 
    ![wallet](image-1.png)
 
@@ -29,8 +33,8 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Zlkcyber/opledBot.git
-   cd opledBot
+   git clone https://github.com/arcxteam/open-ledger.git
+   cd open-ledger
    ```
 2. Install dependencies:
    ```bash
