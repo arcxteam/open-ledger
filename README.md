@@ -1,6 +1,6 @@
 # OPEN LEDGER BOT 
 
-![banner](image.png)
+![openledger-Blockchain-for-AI-01-13-2025_11_36_PM](https://github.com/user-attachments/assets/a8edd348-ab71-438b-85b5-983173dd17e0)
 ![Desktop-screenshot-01-13-2025_11_26_PM](https://github.com/user-attachments/assets/99e86b82-ec52-41c7-a1ab-a6ba7a6967cb)
 
 
@@ -28,7 +28,8 @@
 - **Wallets from open-ledger account**: how to get ???
 - **Go To dashboard** [https://testnet.openledger.xyz](https://testnet.openledger.xyz/?referral_code=jzs25u2tsm) and copy your wallet, look at image below:
 
-   ![wallet](image-1.png)
+  ![image](https://github.com/user-attachments/assets/0403f6fb-57b4-4cce-b14e-0985370f4e32)
+
 
 ## Setup
 
