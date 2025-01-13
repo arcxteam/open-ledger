@@ -19,7 +19,7 @@
 
 - **Node.js**: Ensure you have Node.js installed.
 - **npm**: Ensure you have npm installed.
-- **Proxies**: If you need, 2captcha is good choose-1. it was promotion with 50% starting by 1GB/$3 accept crypto without fees. so its low use traffic & rotating under your generate IP locations [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
+- **Proxies**: `IM NOT PROMO, COZ I USED IT NOW` If you need a proxy, 2captcha is a good one. It was promoted with 50% off on 1GB for $3, it accepts crypto without fees and uses low-bandwitch + has rotating IP locations under your generated IP addresses. [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
 
 ![image](https://github.com/user-attachments/assets/ac433d24-f082-4ade-9269-a1dea2a71695)
 
