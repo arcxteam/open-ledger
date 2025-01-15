@@ -31,8 +31,8 @@ What is **OpenLedger**? OpenLedger's data Blockchain AI network providing a dece
 
 | Requirement                      | Details                        |
 |----------------------------------|--------------------------------|
-| NODE.JS                          | versions >20 - up              |
-| NPM (Node Package Manager)       | versions >10 - Up              |
+| Node.Js                        | versions >20 - up              |
+| Npm (Node Package Manager)       | versions >10 - Up              |
 | Pm2 (Process Manager)            | versions >5 - Up               |
 | Proxy services                   | stable residential proxy       |
 
@@ -44,7 +44,7 @@ What is **OpenLedger**? OpenLedger's data Blockchain AI network providing a dece
 | Twitter,Telegram & Discord       | for binding                |
 | Proxy services                   | free or buying (recommend) |
 
-### Features bot
+### Features Codes
 
 - **Auto Send Heartbeat**
 - **Auto Connect/Reconnect Nodes**
@@ -57,7 +57,7 @@ What is **OpenLedger**? OpenLedger's data Blockchain AI network providing a dece
 ## 2. Setup Installation - Run OpenLedger Node
 **1. Proxies Accounts (residentials)**
 
-- I appreciate you, `IM NOT PROMO, COZ I USED IT NOW` If you need a proxy, 2captcha is a good one. It was promoted with 50% off on 1GB for $3, many accepts crypto without fees and uses low-bandwitch + setup rotating IP locations under your generated IP addresses. [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
+- I appreciate you, `So I'M NOT PROMO, COZ I USED IT NOW` If you need a proxy, 2captcha is a good one. There was promoted 50% off starting with 1GB for $3, many accepts crypto without fees & uses low-bandwitch + setup rotating IP locations under your generated IP addresses. [TRY SIGN UP HERE TO USED VOUCHERS](https://2captcha.com/?from=24919769)
 
 ![image](https://github.com/user-attachments/assets/ac433d24-f082-4ade-9269-a1dea2a71695)
 
@@ -78,24 +78,29 @@ What is **OpenLedger**? OpenLedger's data Blockchain AI network providing a dece
    ```bash
    npm install
    ```
-3. Copy paste you wallet from **open-ledger account** to `wallets.txt` file 1 address per line.
+3. Copy paste for the wallet from **open-ledger account** to cmd `nano wallets.txt` 1 address per line
    ```bash
    nano wallets.txt
    ```
 
-4. Use proxy: copy paste in the proxy.txt file. 1 proxy per line. I used `socks5`
-- It is recommended to use a proxy if you are running multiple accounts
-- Format : `https://user:password@ip:port` | `socks5://user:password@ip:port` | `http://user:password@ip:port`
+4. Copy paste for the proxy file. *1 proxy per line*
+- It is recommended to use a proxy if you are running multiple accounts 
+- Cmd `nano proxy.txt` the format proxies are `https://user:password@ip:port` | `socks5://user:password@ip:port` | `http://user:password@ip:port` I used **socks5**
 
   ```bash
   nano proxy.txt
   ```
-5. Run The JavaScript with **Pm2 (Process Manager 2)**
+5. Run this JavaScript with **Pm2 (Process Manager 2)**
    ```bash
    pm2 start npm --name open-ledger -- start
    ```
+6. After run **save it**
+   ```bash
+   pm2 save
+   pm2 startup
+   ```
 
-6. Check logs **Pm2 (Process Manager 2)**
+7. Check logs **Pm2 (Process Manager 2)**
    ```bash
    pm2 logs open-ledger
    ```
@@ -112,11 +117,6 @@ npm install -g pm2
 
 ```
 pm2 monit
-```
-
-```
-pm2 save
-pm2 startup
 ```
 
 ```
